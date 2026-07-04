@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary - deep campus blue -->
+    <color name="primary">#1E4FE0</color>
+    <color name="primary_dark">#1436A8</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#DDE6FF</color>
+
+    <!-- Secondary - security accent (teal/green signals "verified") -->
+    <color name="secondary">#00A896</color>
+    <color name="on_secondary">#FFFFFF</color>
+
+    <!-- Status colors -->
+    <color name="success">#2E7D32</color>
+    <color name="warning">#F9A825</color>
+    <color name="error">#D32F2F</color>
+    <color name="danger_container">#FDECEA</color>
+
+    <!-- Neutrals -->
+    <color name="background">#FAFAFC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#1B1B1F</color>
+    <color name="on_surface_variant">#46464F</color>
+    <color name="outline">#C6C6D0</color>
+
+    <!-- Dark theme neutrals -->
+    <color name="background_dark">#121218</color>
+    <color name="surface_dark">#1E1E24</color>
+    <color name="on_surface_dark">#E4E2E6</color>
+</resources>

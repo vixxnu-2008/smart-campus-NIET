@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Blocks ALL cleartext (HTTP) traffic app-wide. Firebase SDKs always use HTTPS,
+         so this has no functional cost and closes a common OWASP MASVS-NETWORK finding. -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

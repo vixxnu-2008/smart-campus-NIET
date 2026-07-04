@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Campus Security</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline">AI-Powered Campus Security &amp; Attendance</string>
+
+    <!-- Role selection -->
+    <string name="role_select_title">Who\'s signing in?</string>
+    <string name="role_select_subtitle">Select your role to continue</string>
+    <string name="role_student">Student</string>
+    <string name="role_faculty">Faculty</string>
+    <string name="role_admin">Admin</string>
+
+    <!-- Replace with your real key from Google Cloud Console → Maps SDK for Android.
+         Used from Phase 4 (Geofencing / campus map). Empty string is safe for Phase 1
+         since no map is rendered yet. -->
+    <string name="google_maps_api_key" translatable="false"></string>
+</resources>
